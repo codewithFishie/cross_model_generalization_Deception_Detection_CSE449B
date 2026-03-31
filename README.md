@@ -129,6 +129,18 @@ A practical next step is hyperparameter sweeps over the above on leave-one-domai
 
 ---
 
+## Notebook version
+
+If you prefer a single notebook with all core code and workflow steps, use:
+
+```text
+notebooks/cross_domain_deception_pipeline.ipynb
+```
+
+It includes data prep, model definition, training, and leave-one-domain-out evaluation in one place.
+
+---
+
 ## Files added
 
 - `src/deception/data.py` – data loading, transforms, manifests.
