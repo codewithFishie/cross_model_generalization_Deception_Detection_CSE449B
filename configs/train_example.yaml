@@ -1,0 +1,9 @@
+train_csv: outputs/holdout_rlt/splits/train.csv
+val_csv: outputs/holdout_rlt/splits/val.csv
+test_csv: outputs/holdout_rlt/splits/test.csv
+batch_size: 16
+image_size: 224
+epochs: 20
+lr: 0.0001
+weight_decay: 0.0001
+domain_loss_weight: 0.2
